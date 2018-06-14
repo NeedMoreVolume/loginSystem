@@ -1,5 +1,5 @@
 // Daniel Pivalizza
-// CS2410 Final Project
+
 //	The goal of this project is to be able to load usernames and passwords from a file, as well as modify the list (change 
 // existing details, add new details, delete existing details, and verify details) in a secure and efficient fashion. This will
 // be achieved by hashing the passwords and storing the hashes, so when the user enters a password, it comes into the private area
@@ -8,8 +8,8 @@
 // time an entry is changed so that no user's password hash will be the same even if the passwords themselves are the same,
 // appended to the password string before hashing) will be utilized.
 //	 Since writing one's own hashing algorithm to be secure seems to be discouraged from everything read on the internet, the
-// passwords are stored using  a SHA2 hash from the OpenSSL library to ensure that it is secure as it has been tested and proven
-// to work well.
+// passwords are stored using a SHA2 hash from the OpenSSL library to ensure that it is secure as it has been tested and proven
+// to work well, and has no known collisions at the time of writing this code.
 
 #define _CRT_RAND_S
 

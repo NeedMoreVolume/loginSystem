@@ -15,11 +15,6 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Source1.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-  </ItemGroup>
-  <ItemGroup>
     <ClInclude Include="..\..\..\..\..\..\..\OpenSSL-Win32\include\openssl\camellia.h">
       <Filter>Header Files</Filter>
     </ClInclude>
@@ -245,5 +240,10 @@
     <ClInclude Include="..\..\..\..\..\..\..\OpenSSL-Win32\include\openssl\buffer.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="source.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
